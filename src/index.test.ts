@@ -1,5 +1,19 @@
 import { evolutionChain } from "./index";
-import expectedResponse from "./expected-response.json";
+
+const expectedResponse = {
+  name: "caterpie",
+  variations: [
+    {
+      name: "metapod",
+      variations: [
+        {
+          name: "butterfree",
+          variations: [],
+        },
+      ],
+    },
+  ],
+};
 
 describe("Pokemon evolution chain", () => {
   it("Should throw without a Pokemon supplied", async (): Promise<void> => {
