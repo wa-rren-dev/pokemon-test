@@ -11,3 +11,5 @@
 7. You may be able to tell from my language that I don't know _anything_ about Pokemon.
 
 **_NOTE!_** The tests run against the live Pokemon API
+
+You can [jump into an environment quickly on Gitpod here](https://gitpod.io/#https://github.com/wa-rren-dev/pokemon-test) and logging in with Github credentials
